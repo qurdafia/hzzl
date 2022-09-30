@@ -1,38 +1,61 @@
 .App {
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 15px 0;
+}
+
+.Register {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+.Divider {
+  border: 1px dotted #cccccc;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.Title {
+  color: #666666;
+  font-size: 40px;
+  font-weight: bolder;
   text-align: center;
+  padding: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Welcome {
+  color: #666666;
+  font-weight: 300;
+  padding: 0 20px ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Welcome p {
+  line-height: 1.5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Input Styling */
+
+textarea:focus, input:focus {
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+input[type=submit] {
+  background-color: purple !important;
+  border-radius: 5px;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-weight: bolder;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=submit]:hover {
+  background-color: rgb(164, 0, 164) !important;
+  color: #ffffff !important;
 }
