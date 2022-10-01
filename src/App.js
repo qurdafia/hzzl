@@ -1,21 +1,18 @@
 import './App.css';
 import { RegisterComponent } from './components/RegisterComponent';
+import { HeroMessage } from './components/HeroMessage';
+import { HzzlLogo } from './components/HzzlLogo';
 
 const App = () => {
 
   return (
     <div className='App'>
       <div className='LogoArea'>
-        Hazzl
+        <HzzlLogo />
       </div>
       <div className='MainWrapper'>
         <div className='TwoThirdBoxWrapper'>
-          <div className='Title'>
-            Be a member to Hzzl!
-          </div>
-          <p>
-            Welcome to Hazzl! It's a platform for all your side-hustles.
-          </p>
+          <HeroMessage />
         </div>
         <div className='RegisterWrapper'>
           <RegisterComponent

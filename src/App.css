@@ -11,7 +11,7 @@
   color: purple;
   font-weight: bolder;
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -27,10 +27,36 @@
 }
 
 .TwoThirdBoxWrapper {
-  background-color: #ccc;
+  /*background-color: #ccc;*/
+  /* box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); */
   box-sizing: border-box;
   padding: 50px;
   width: 66%;
+}
+
+.HeroMessage {
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.Title {
+  color: purple;
+  font-size: 40px;
+  font-weight: 800 !important;
+}
+
+.Welcome {
+  color: #666666;
+  font-weight: 300;
+  padding: 0 15px ;
+}
+
+.Welcome p {
+  line-height: 1.5;
+}
+
+.HeroMessageImage img {
+  width: 100%;
 }
 
 .RegisterWrapper {
@@ -51,22 +77,6 @@
   border-bottom: none;
   border-left: none;
   border-right: none;
-}
-
-.Title {
-  color: #666666;
-  font-size: 40px;
-  font-weight: bolder;
-}
-
-.Welcome {
-  color: #666666;
-  font-weight: 300;
-  padding: 0 15px ;
-}
-
-.Welcome p {
-  line-height: 1.5;
 }
 
 /* Input Styling */
