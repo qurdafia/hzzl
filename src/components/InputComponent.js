@@ -3,9 +3,9 @@ const InputComponentStyle = {
         border: "none",
         boxSizing: "border-box",
         color: "#666666",
-        fontSize:  "18px",
-        marginTop: "20px",
-        padding: "20px",
+        fontSize:  "16px",
+        // marginTop: "20px",
+        padding: "15px",
         width: "100%"
 }
 

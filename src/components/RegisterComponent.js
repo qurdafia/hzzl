@@ -1,14 +1,15 @@
 import '../App.css';
-import { useState} from 'react';
+import { useState } from 'react';
 import { InputComponent } from './InputComponent';
+import { RegisterMessage } from './RegisterMessageComponent';
 
-export const RegisterComponent = () => {
+export const RegisterComponent = (props) => {
 
-  let [ fName, setFname ] = useState('');
-  let [ lName, setLname ] = useState('');
-  let [ email, setEmail ] = useState('');
-  let [ password, setPassword ] = useState('');
-  let [ confirmPw, setConfirmPw ] = useState('');
+  const [ fName, setFname ] = useState('');
+  const [ lName, setLname ] = useState('');
+  const [ email, setEmail ] = useState('');
+  const [ password, setPassword ] = useState('');
+  const [ confirmPw, setConfirmPw ] = useState('');
 
   const setFnameHandler = (event) => {
     setFname(event.target.value);
@@ -37,24 +38,13 @@ export const RegisterComponent = () => {
 
   return (
     <div className="Register">
-      <div className="Welcome">
-        <p>
-            Hello there!
-            {fName || lName ? ' Welcome to Hzzl, ' + fName + ' ' + lName + '. Good day.': '' }
-        
-            {email ? ' Your email is ' + email + '.': ''}
-        
-            { password ? ' Thank you.' : '' }
-        </p>
-        <p>
-            { password === confirmPw ? '' : 'Oops! Your password did not match!'}
-        </p>
-        <p>
-            {
-                fName && lName && email && ((password === confirmPw) && !(password === '' && confirmPw === '')) ? 'You are good to go!' : 'Please provide all the required details to register.'
-            }
-        </p>
-      </div>
+      <RegisterMessage 
+        fName={fName}
+        lName={lName}
+        email={email}
+        password={password}
+        confirmPw={confirmPw}
+      />
       <form onSubmit={formSubmitHandler}>
         <InputComponent 
           type="text"
