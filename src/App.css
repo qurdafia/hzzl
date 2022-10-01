@@ -104,7 +104,7 @@ input[type=submit] {
   cursor: pointer;
   font-weight: bolder !important;
   margin-top: 20px;
-  padding: 20px 0 !important;
+  -webkit-appearance: none;
 }
 
 input[type=submit]:hover {
@@ -123,6 +123,6 @@ input[type=submit]:hover {
   }
 
   .App {
-    padding: 0 30px; 
+    padding: 0 10px; 
   }
 }
