@@ -8,7 +8,7 @@ export const HeroMessage = () => {
                 Be a member to Hzzl!
             </div>
             <p>
-                Welcome to Hazzl! This is a platform for part-time jobs and all of your side-hustles. Be a member to
+                Welcome to Hzzl! This is a platform for part-time jobs and all of your side-hustles. Be a member to
                 explore all possibilities to generate extra income! Register now!
             </p>
             <HeroMessageImage />
