@@ -102,8 +102,9 @@ input[type=submit] {
   border-radius: 5px;
   color: #ffffff !important;
   cursor: pointer;
-  font-weight: bolder;
+  font-weight: bolder !important;
   margin-top: 20px;
+  padding: 20px 0 !important;
 }
 
 input[type=submit]:hover {
@@ -114,9 +115,14 @@ input[type=submit]:hover {
 @media only screen and (max-width: 600px) {
   .MainWrapper {
     width: 100%;
-    display: block;;
+    display: block;
   }
+
   .TwoThirdBoxWrapper, .RegisterWrapper, .LogoArea {
-    width: 100%; 
+    width: 100%;
+  }
+
+  .App {
+    padding: 0 30px; 
   }
 }
