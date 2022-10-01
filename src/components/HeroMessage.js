@@ -5,7 +5,7 @@ export const HeroMessage = () => {
     return (
         <div className='HeroMessage'>
             <div className='Title'>
-                Be a member to Hzzl!
+                Join our community to Hzzl!
             </div>
             <p>
                 Welcome to Hzzl! This is a platform for part-time jobs and all of your side-hustles. Be a member to
