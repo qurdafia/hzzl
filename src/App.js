@@ -2,6 +2,7 @@ import './App.css';
 import { RegisterComponent } from './components/RegisterComponent';
 import { HeroMessage } from './components/HeroMessage';
 import { HzzlLogo } from './components/HzzlLogo';
+import { Footer } from './components/Footer';
 
 const App = () => {
 
@@ -18,6 +19,9 @@ const App = () => {
           <RegisterComponent
           />
         </div>
+      </div>
+      <div className='FooterArea'>
+        <Footer />
       </div>
     </div>
   );
