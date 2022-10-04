@@ -8,8 +8,10 @@ const App = () => {
 
   return (
     <div className='App'>
-      <div className='LogoArea'>
-        <HzzlLogo />
+      <div className='NavArea'>
+        <div className='LogoArea'>
+          <HzzlLogo />
+        </div>
       </div>
       <div className='MainWrapper'>
         <div className='TwoThirdBoxWrapper'>
