@@ -21,7 +21,7 @@ export const RegisterMessage = (props) => {
                         && !(props.password === '' && props.confirmPw === '')) 
                     ? <span id="goodtogo">You are good to go!</span> 
                     : props.password === props.confirmPw
-                        ? <span id="separator">xx</span>
+                        ? <span id="separator">Please provide details. Thanks!</span>
                         : <span id="notmatched">Oops! Password not matched!</span>
                 }
             </p>

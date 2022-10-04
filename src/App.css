@@ -159,7 +159,7 @@ input[type=submit]:disabled {
 }
 
 #separator {
-  visibility: hidden;
+  color: purple;
 }
 
 #notmatched {
