@@ -95,6 +95,11 @@ export const RegisterComponent = (props) => {
           type="submit"
           name="submit"
           value="Register"
+          // disabled={true}
+          disabled={ (fName && lName && email && password && confirmPw) 
+            ? false 
+            : true 
+          }
         />
       </form>
       

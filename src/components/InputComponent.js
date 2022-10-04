@@ -18,6 +18,7 @@ export const InputComponent = (props) => {
                 onChange={props.onChange}
                 placeholder={props.placeholder}
                 required={props.required}
+                disabled={props.disabled}
                 autoComplete="off"
             />
         </div>
